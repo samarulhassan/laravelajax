@@ -39,16 +39,11 @@ class StudentController extends Controller
         $student=Student::find($id);
         return response()->json($student);
     }
-
-    /**
-     * Display the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function show($id)
+    public function deleteStudent($id)
     {
-        //
+        $student= Student::find($id);
+        $student->delete();
+        return response()->json(['success'=>'Record has been deleted']);
     }
 
     /**
