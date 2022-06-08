@@ -18,7 +18,7 @@
 			<div class="col-md-12">
 				<div class="card">
 					<div class="card-header">
-						Student <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#studentModal">ADD NEW</button>
+						Student <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#studentModal">NEW STUDENT</button>
 					</div>
 					<div class="card-body">
 						<table id="studentTable">
